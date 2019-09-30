@@ -12,7 +12,7 @@ public class Customer {
         return fullname;
     }
 
-    public String getAddress() {
+      String getAddress() {
         return address;
     }
 }
