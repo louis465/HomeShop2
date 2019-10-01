@@ -1,8 +1,8 @@
 package com.ocr.louis;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
     public class BillTest {
         private String output;
@@ -46,4 +46,3 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
             assertEquals(870.98, bill.getTotal(), 0.01);
         }
     }
-}
