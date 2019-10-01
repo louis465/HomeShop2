@@ -9,7 +9,7 @@ public class Main {
 
         Customer customer = new Customer("Juste Leblanc", "19 rue Germain Pilon, Paris");
 
-        bill bill = new bill(Customer, Delivery);
+        bill bill = new bill(customer );
         bill.addProduct(cafe, 1);
         bill.addProduct(tv, 1);
         bill.addProduct(fridge, 1);

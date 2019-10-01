@@ -24,4 +24,6 @@ public class bill {
     public Map<product, Integer> getProducts() {
         return products;
     }
+
+
 }
